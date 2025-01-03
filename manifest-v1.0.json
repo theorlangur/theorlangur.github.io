@@ -1,0 +1,14 @@
+{
+  "name": "Orlangur Presence-NG",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32-H2",
+      "parts": [{ "path": "firmware/v1.0/orlangur-presence-ng-esp32h2.bin", "offset": 0 }]
+    },
+    {
+      "chipFamily": "ESP32-C6",
+      "parts": [{ "path": "firmware/v1.0/orlangur-presence-ng-esp32c6.bin", "offset": 0 }]
+    }
+  ]
+}
